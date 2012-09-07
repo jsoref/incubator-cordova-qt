@@ -670,7 +670,7 @@ void FileAPI::moveDir(int scId, int ecId,const QString& sourceDir, const QString
         }
     }
     if(copyFolder(sourceDir, destFolder)){
-        qDebug() << "rming src dir if src-> dest copy success";
+        qDebug() << "rming src dir if src-> dest copy succeeds";
         rmDir(sourceDir );
         this->callback( scId, "DirectoryEntry.cast( '" + dirName + "', '" + destFolder + "' )" );
         return;
