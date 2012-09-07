@@ -599,7 +599,7 @@ void FileAPI::moveFile(int scId, int ecId,const QString& sourceFile, const QStri
         this->callback( scId, "" );
         return;
     } else {
-        qDebug() << "unable to copy the file, ecID is callbacked by copyFile";
+        qDebug() << "unable to copy the file, ecID is called back by copyFile";
         return;
     }
 
