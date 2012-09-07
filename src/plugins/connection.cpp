@@ -31,7 +31,7 @@ Connection::Connection() : CPlugin() {
 }
 
 /**
- * Initialize the pugin
+ * Initialize the plugin
  */
 void Connection::init() {
     m_changeCallback = -1;

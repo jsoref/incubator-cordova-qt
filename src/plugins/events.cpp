@@ -21,7 +21,7 @@ Events::Events() :
 }
 
 /**
- * Initialize the pugin
+ * Initialize the plugin
  */
 void Events::init()
 {
