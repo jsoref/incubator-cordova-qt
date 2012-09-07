@@ -98,7 +98,7 @@ void Media::pause( int scId, int ecId, QVariantMap p_options){
     player->pause();
 }
 
-void Media::relase( int scId, int ecId, QVariantMap p_options){
+void Media::release( int scId, int ecId, QVariantMap p_options){
     Q_UNUSED(p_options)
     Q_UNUSED(scId)
     Q_UNUSED(ecId)

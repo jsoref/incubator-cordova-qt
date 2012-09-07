@@ -44,7 +44,7 @@ public slots:
     long getDuration( int scId, int ecId, QVariantMap p_options);
     void play( int scId, int ecId, QVariantMap p_options);
     void pause( int scId, int ecId, QVariantMap p_options);
-    void relase( int scId, int ecId, QVariantMap p_options);
+    void release( int scId, int ecId, QVariantMap p_options);
     void stop( int scId, int ecId, QVariantMap p_options);
     void startRecording( int scId, int ecId, QVariantMap p_options);
     void stopRecording( int scId, int ecId, QVariantMap p_options);
