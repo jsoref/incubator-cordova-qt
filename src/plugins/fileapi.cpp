@@ -174,7 +174,7 @@ void FileAPI::getFile( int scId, int ecId, QString p_path, QVariantMap p_options
         file.open( QIODevice::WriteOnly );
         file.close();
 
-        // Check if creation was successfull
+        // Check if creation was successful
         if( !file.exists() ) {
             this->callback( ecId, "FileException.cast( FileException.NO_MODIFICATION_ALLOWED_ERR )" );
             return;
@@ -241,7 +241,7 @@ void FileAPI::getDirectory( int scId, int ecId, QString p_path, QVariantMap p_op
         dir.mkdir( folderName );
         dir.cd( folderName );
 
-        // Check if creation was successfull
+        // Check if creation was successful
         if( !dir.exists() ) {
             this->callback( ecId, "FileException.cast( FileException.NO_MODIFICATION_ALLOWED_ERR )" );
             return;
